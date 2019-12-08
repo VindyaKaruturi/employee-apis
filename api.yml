@@ -1,0 +1,28 @@
+swagger: "2.0"
+info:
+  description: "This is sample for Swagger test"
+  version: "1.0.0"
+  title: "Swagger API"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "apiteam@swagger.io"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "localhost:8000"
+basePath: "/"
+schemes:
+- "https"
+- "http"
+paths:
+  /test:
+    get:
+      tags:
+        - 'test'
+      summary: 'test Api'
+      operationId: 'TestApi'
+      produces:
+        - 'application/json'
+      responses:
+        200:
+          description: 'success'
