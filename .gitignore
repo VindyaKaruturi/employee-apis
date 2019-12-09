@@ -1,0 +1,11 @@
+**/node_modules/
+.DS_Store
+artillery.html
+# Editor directories and files
+.vscode
+
+coverage/*
+.nyc_output/*
+out/**
+!out/.gitkeep
+report.json
